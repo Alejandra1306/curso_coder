@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.titulo-principal{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 160%;
+     text-align: center;
+     color: #f3f3f3;
+     margin-top: 15px;
+   
+}
+
+
+header {
+    background-color: #070707;
+    width: 100%;
+    color: rgb(162, 202, 144);
+    padding: 10px;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    color:#f3f3f3;
+    margin: 0;
+    padding: 0;
+    background-color: #3e4242;
+}
+
+
+.menu {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #7c6d6d;
+    font-size: 140%
+}
+
+ 
+.menu li{
+    margin: 0 15px
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+
+.menu a:hover {
+    background-color: #575757;
+}
+
+.contenedor-sobremi{
+    position: relative; /* Necesario para posicionar el texto de manera absoluta */
+    width: 100%; /* Ancho del contenedor */
+    max-width: 1500px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+.imagen-sobremi{
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio inferior que aparece en las imágenes */
+    border-radius: 8px;
+}
+.texto-sobremi {
+    position: absolute; /* Posiciona el texto sobre la imagen */
+    top: 20%; /* Lo coloca en el centro vertical */
+    left: 50%; /* Lo coloca en el centro horizontal */
+    
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px;  
+
+} 
+
+.texto-sobremi-dos {
+    position: absolute; /* Posiciona el texto sobre la imagen */
+    top: 40%; /* Lo coloca en el centro vertical */
+    right: 50%; /* Lo coloca en el centro horizontal */
+    
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px;  
+
+} 
+
+.texto-sobremi-tres {
+    position: absolute; /* Posiciona el texto sobre la imagen */
+    bottom: 25%; /* Lo coloca en el centro vertical */
+    left: 50%; /* Lo coloca en el centro horizontal */
+    
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px;  
+
+} 
+.espacios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.espacios img{
+    width: 300px;
+    height: 300px;
+}
+
+h2{
+    padding: 15px;
+    margin: 15px;
+    font-size: 180%;
+}
+
+.donde.estamos{
+  background-color: white;
+    
+}
+
+footer {
+    background-color: #333;
+    color: rgb(253, 251, 251);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Estilos para la sección de ubicación */
+.ubicacion-tienda {
+    margin-top: 8%;
+    margin-left: 30%;
+    margin-bottom: 8%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Estilos para el título */
+.ubicacion-tienda h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para el iframe de Google Maps */
+.mapa iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+article{
+    width: 20rem;
+}
+h2{
+    text-align: center;
+}
+
+.card{
+    background-color: #3e4242;
+}
+
+.card-body{
+    text-align: center;
+    color:#f3f3f3;
+    padding: 10%;
+
+}
